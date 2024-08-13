@@ -1,0 +1,10 @@
+jg_medich_gestao_clientes\DemoApplication.class
+jg_medich_gestao_clientes\mapper\UserMapper.class
+jg_medich_gestao_clientes\exception\handler\RestExceptionHandler.class
+jg_medich_gestao_clientes\dto\response\InsertUserResponse.class
+jg_medich_gestao_clientes\mapper\UserMapperImpl.class
+jg_medich_gestao_clientes\controller\UserController.class
+jg_medich_gestao_clientes\service\UserService.class
+jg_medich_gestao_clientes\entity\UserEntity.class
+jg_medich_gestao_clientes\repository\UserRepository.class
+jg_medich_gestao_clientes\dto\request\InsertUserRequest.class
