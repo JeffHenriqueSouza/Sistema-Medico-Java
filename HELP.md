@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'jg-medich-gestao-clientes.demo' is invalid and this project uses 'jg_medich_gestao_clientes.demo' instead.
+* The original package name 'jg-medich-gestao-clientes.demo' is invalid and this project uses 'jg_user_management.demo' instead.
 
 # Getting Started
 
