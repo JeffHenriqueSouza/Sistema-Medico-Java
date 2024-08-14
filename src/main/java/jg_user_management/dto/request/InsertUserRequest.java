@@ -20,5 +20,10 @@ public record InsertUserRequest(
 
     @NotBlank(message = "{notblank.password}")
     @Size(min = 8, message = "{size.password}")
-    String password
+    String password,
+
+    @NotBlank(message = "{notblank.crm}")
+    @Size(min = 8, message = "{pattern.crm}")
+    String crm
+
 ) { }

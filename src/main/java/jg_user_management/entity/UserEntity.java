@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
-@Table(name = "tb_user")
+@Table(name = "0tb_doctors")
 @Entity
 @Data
 @NoArgsConstructor
@@ -23,11 +23,13 @@ public class UserEntity {
     private String email;
     private String phoneNumber;
     private String password;
+    private String crm;
 
     public UserEntity(InsertUserRequest request) {
         this.name = request.name();
         this.email = request.email();
         this.phoneNumber = request.phoneNumber();
         this.password = request.password();
+        this.crm = request.crm();
     }
 }
