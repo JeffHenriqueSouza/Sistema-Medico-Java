@@ -10,5 +10,9 @@ public class InsertUserResponse {
     private String email;
     private String phoneNumber;
     private String crm;
+    private String token;
+
+    public void setToken(String token) {
+    }
 }
 

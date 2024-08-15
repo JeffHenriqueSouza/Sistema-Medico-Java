@@ -24,6 +24,8 @@ public class UserEntity {
     private String phoneNumber;
     private String password;
     private String crm;
+    private String token;
+
 
     public UserEntity(InsertUserRequest request) {
         this.name = request.name();
@@ -31,5 +33,9 @@ public class UserEntity {
         this.phoneNumber = request.phoneNumber();
         this.password = request.password();
         this.crm = request.crm();
+    }
+
+    public String getEmail() {
+        return email;
     }
 }
